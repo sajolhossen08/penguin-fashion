@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #fffbf0;
+}
+
+/*👉nav section👈*/
+.navbar{
+    padding: 20px 0;
+}
+
+.nav-item{
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover{
+    background: #262626;
+    color: white;
+}
+
+
+.company-logo{
+    width: 250px;
+}
+.bg-white{
+    background-color: #fffefe;
+}
+/*👉intro section👈*/
+.intro{
+    margin-top: 110px;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 600px;
+    width: 100%;
+}
+.intro-p{
+    width: 100%;
+    text-align: justify;
+}
+.col-lg-6{
+    margin-bottom: 30px;
+}
+.photo1{
+    width: 100%;
+}
+.hello {
+    color: #4d42cb;
+    font-weight: 700;
+}
+
+.button {
+    background-color: #4d42cb;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+.name {
+    color: #fa804c;
+}
+
+.button:hover {
+    background-color: #fa804c;
+    box-shadow: 10px 10px 20px #fa804c;
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+/*👉sell section👈*/
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-img-top{
+    height: 20em;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.sell{
+    margin-bottom: 50px;
+}
+h2{
+    font-weight: 600;
+    color: #fa804c;
+    font-size: 30px;
+}
+
+
+/*👉about us section👈*/
+.a-icon{
+    width: 70px;
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
+.orange-bg{
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+.contact{
+    max-width: 90%;
+    text-align: center;
+}
+.subscr-button{
+    background-color: #fb6f5b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 100%;
+    text-decoration: none;
+    border: none;
+    box-shadow: -3px 10px 30px 0px #fa804c;
+}
+
+/*👉footer👈*/
+footer{
+    text-align: center;
+}
